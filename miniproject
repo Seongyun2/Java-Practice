@@ -1,0 +1,17 @@
+
+public class noname1 {
+    public static void main(String[] args) {
+        String[] logo = {
+            "  ______  _______  __      __ ",
+            " /  ____||   _   | \\ \\    / / ",
+            "|  |     |  |_)  |  \\ \\  / /  ",
+            "|  |     |   _  <    \\ \\/ / ",
+            "|  |____ |  |_)  |    \\  / ",
+            " \\______||_______|     \\/  "
+        };
+
+        for (String line : logo) {
+            System.out.println(line);
+        }
+    }
+}
